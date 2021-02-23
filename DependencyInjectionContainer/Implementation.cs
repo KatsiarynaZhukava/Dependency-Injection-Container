@@ -11,7 +11,7 @@ namespace DependencyInjectionContainer
     class Implementation
     {
         public Type TImplementation { get; }
-        public LifeCycle LifeCycle { get; }
+        public LifeCycle LifeCycle { get; set; }
 
         public Implementation(Type implementation, LifeCycle lifeCycle)
         {
